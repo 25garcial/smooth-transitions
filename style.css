@@ -1,0 +1,22 @@
+.images{
+    width:100%;
+    left:0;
+    height:20%;
+    background: blue;
+    position:absolute;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+} 
+  .images > .frame {
+    position: absolute;
+    top: 100%;
+    transition: 0.24s;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .images:hover > .frame {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+  }
